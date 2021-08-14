@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62487528-9df8-423d-afe9-96bba8a608a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Goldstine_workspace\JavaDevelopment\IDEA\IDEA_development_tool\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\Goldstine_workspace\JavaDevelopment\maven_install\maven_install_package\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1wf3GpsDHDhiIszenN1FeIjVXIB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_log" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.EditorConfig" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Goldstine_workspace\JavaDevelopment\SpringBoot\FastJson\FastJsonMVC\src\test\java\log4j2" />
+      <recent name="D:\Goldstine_workspace\JavaDevelopment\SpringBoot\FastJson\FastJsonMVC\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Log4j2Test.testQuick">
+    <configuration name="Log4j2Test.testQuick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="log4j2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="log4j2" />
+      <option name="MAIN_CLASS_NAME" value="log4j2.Log4j2Test" />
+      <option name="METHOD_NAME" value="testQuick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jBridgeTest.testBridge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slf4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="slf4j" />
+      <option name="MAIN_CLASS_NAME" value="slf4j.Log4jBridgeTest" />
+      <option name="METHOD_NAME" value="testBridge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogbackTest.testLogback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="logback" />
+      <option name="MAIN_CLASS_NAME" value="logback.LogbackTest" />
+      <option name="METHOD_NAME" value="testLogback" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="slf4jTest.testslf4j (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="log4j2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="log4j2" />
+      <option name="MAIN_CLASS_NAME" value="log4j2.slf4jTest" />
+      <option name="METHOD_NAME" value="testslf4j" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="slf4jTest.testslf4j" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slf4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="slf4j" />
+      <option name="MAIN_CLASS_NAME" value="slf4j.slf4jTest" />
+      <option name="METHOD_NAME" value="testslf4j" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Log" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Log" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Log4j2Test.testQuick" />
+        <item itemvalue="JUnit.slf4jTest.testslf4j (1)" />
+        <item itemvalue="JUnit.LogbackTest.testLogback" />
+        <item itemvalue="JUnit.slf4jTest.testslf4j" />
+        <item itemvalue="JUnit.Log4jBridgeTest.testBridge" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62487528-9df8-423d-afe9-96bba8a608a9" name="Default Changelist" comment="" />
+      <created>1628835725957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628835725957</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1514" y="587" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628849427825">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1514" y="587" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1628849427825" />
+    <state x="1544" y="576" key="FileChooserDialogImpl" timestamp="1628943489522">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1544" y="576" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1628943489522" />
+    <state width="1342" height="307" key="GridCell.Tab.0.bottom" timestamp="1628943380699">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="307" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1628943380699" />
+    <state width="1342" height="307" key="GridCell.Tab.0.center" timestamp="1628943380699">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="307" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1628943380699" />
+    <state width="1342" height="307" key="GridCell.Tab.0.left" timestamp="1628943380698">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="307" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1628943380698" />
+    <state width="1342" height="307" key="GridCell.Tab.0.right" timestamp="1628943380699">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="307" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1628943380699" />
+    <state width="1342" height="386" key="GridCell.Tab.1.bottom" timestamp="1628862026927">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="386" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1628862026927" />
+    <state width="1342" height="386" key="GridCell.Tab.1.center" timestamp="1628862026927">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="386" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1628862026927" />
+    <state width="1342" height="386" key="GridCell.Tab.1.left" timestamp="1628862026927">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="386" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1628862026927" />
+    <state width="1342" height="386" key="GridCell.Tab.1.right" timestamp="1628862026927">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="386" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1628862026927" />
+    <state x="1366" y="366" key="SettingsEditor" timestamp="1628909973783">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1366" y="366" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1628909973783" />
+    <state x="1138" y="482" key="new project wizard" timestamp="1628943377368">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1138" y="482" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1628943377368" />
+    <state x="1424" y="381" width="672" height="678" key="search.everywhere.popup" timestamp="1628931243207">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1424" y="381" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1628931243207" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../jdk_install/jdk_install_package/src.zip!/java/util/logging/LogManager.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/JULTest.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/JULTest.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../jdk_install/jdk_install_package/src.zip!/java/util/logging/Logger.java</url>
+          <line>454</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/org/slf4j/LoggerFactory.class</url>
+          <line>76</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <!--配置集中管理属性,可以直接改属性value值  通过name取value的方式${name}-->
+    <!--通过property设置公共变量-->
+    <property name="pattern" value="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c %M %L [%thread]========== %m%n"></property>
+
+    <!--控制台日志输出的appender-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">  <!--对应的输出对象为控制台-->
+        <!--控制输出流对象  默认是System.out-->
+        <target>System.err</target>      <!--对应的输出为红色字体-->
+        <!--日志消息格式设置-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <springProfile name="dev">
+                <pattern>${pattern}</pattern>
+            </springProfile>
+            <springProfile name="pro">
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c %M %L [%thread]xxxxxxxxxxxxx %m%n</pattern>            <!--通过配置的公共变量设置输出格式-->
+            </springProfile>
+        </encoder>
+    </appender>
+
+<!--    &lt;!&ndash;配置日志文件输出的Appender&ndash;&gt;-->
+<!--    <appender name="file" class="ch.qos.logback.core.FileAppender">-->
+<!--        &lt;!&ndash;日志文件保存路径&ndash;&gt;-->
+<!--        <file>${log_dir}/logback.log</file>-->
+<!--        &lt;!&ndash;日志消息格式设置&ndash;&gt;-->
+<!--        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+<!--            <pattern>${pattern}</pattern>            &lt;!&ndash;通过配置的公共变量设置输出格式&ndash;&gt;-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+
+<!--    &lt;!&ndash;配置html格式的日志文件输出appender&ndash;&gt;-->
+<!--    <appender name="htmlFile" class="ch.qos.logback.core.FileAppender">-->
+<!--        &lt;!&ndash;日志文件保存路径&ndash;&gt;-->
+<!--        <file>${log_dir}/logback.html</file>-->
+<!--        &lt;!&ndash;日志消息格式设置&ndash;&gt;-->
+<!--        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">&lt;!&ndash;设置为自定义格式&ndash;&gt;-->
+<!--            <layout class="ch.qos.logback.classic.html.HTMLLayout">-->
+<!--                <pattern>${pattern}</pattern>            &lt;!&ndash;通过配置的公共变量设置输出格式&ndash;&gt;-->
+<!--            </layout>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+
+<!--    &lt;!&ndash;配置将日志拆分和归档压缩的appender对象&ndash;&gt;-->
+<!--    <appender name="rollFile" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        &lt;!&ndash;日志文件保存路径&ndash;&gt;-->
+<!--        <file>${log_dir}/roll_logback.log</file>-->
+<!--        &lt;!&ndash;日志消息格式配置&ndash;&gt;-->
+<!--        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+<!--            <pattern>${pattern}</pattern>-->
+<!--        </encoder>-->
+
+<!--        &lt;!&ndash;指定拆分规则&ndash;&gt;-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash;按照时间和压缩格式声明拆分的文件名&ndash;&gt;-->
+<!--            <fileNamePattern>${log_dir}/rolling.%d{yyyy-MM-dd-HH-mm-ss}.log%i.gz</fileNamePattern>-->
+<!--            &lt;!&ndash;按照文件大小拆分&ndash;&gt;-->
+<!--            <maxFileSize>1MB</maxFileSize>-->
+<!--        </rollingPolicy>-->
+
+<!--        &lt;!&ndash;日志级别过滤器，就是对日志的级别进行过滤&ndash;&gt;-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            &lt;!&ndash;日志过滤规则&ndash;&gt;-->
+<!--            <level>ERROR</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+
+
+<!--    </appender>-->
+
+<!--    &lt;!&ndash;使用异步的日志方式&ndash;&gt;-->
+<!--    <appender name="async" class="ch.qos.logback.classic.AsyncAppender">-->
+<!--        &lt;!&ndash;指定某一个具体的appender&ndash;&gt;-->
+<!--        &lt;!&ndash;异步的输出方式，与主线程分开&ndash;&gt;-->
+<!--        <appender-ref ref="rollFile"/>-->
+<!--    </appender>-->
+
+
+<!--    &lt;!&ndash;root manager配置&ndash;&gt;-->
+<!--    <root level="ALL">-->
+<!--        <appender-ref ref="console"></appender-ref>         &lt;!&ndash;通过开关开启&ndash;&gt;-->
+<!--        <appender-ref ref="async"></appender-ref>           &lt;!&ndash;开启日志文件&ndash;&gt;-->
+<!--    </root>-->
+
+    <!--自定义logger对象
+        additivity="false" 自定义logger对象是否继承rootlogger
+        name表示对应的子包
+        对应的子包的所有日志都通过该logger对象进行配置
+    -->
+    <logger name="com.goldstine" level="info" additivity="false">
+        <appender-ref ref="console"/>
+    </logger>
+
+
+</configuration>
